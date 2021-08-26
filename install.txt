@@ -1,0 +1,3 @@
+curl -s --compressed "https://appsyouwear.github.io/apt-gazelle-server.dev/KEY.gpg" | sudo apt-key add -
+sudo curl -s --compressed -o /etc/apt/sources.list.d/gazserver.list "https://https://appsyouwear.github.io/apt-gazelle-server.dev/gazserver.list"
+sudo apt update
